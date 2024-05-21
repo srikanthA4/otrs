@@ -1,0 +1,186 @@
+fieldset {
+    margin: 8px 20px 13px;
+    padding-bottom: 5px;
+    background:  rgb(225, 222, 222);
+    border: 1px solid #EAEEEE;
+    /* background-color: rgb(110, 255, 255); */
+}
+
+body{
+    overflow-x: hidden;
+}
+
+fieldset label {
+    padding: 4px 9px 3px 10px;
+    margin: 10px 6px 0px 4px;
+    color: #333;
+    font-size: 13px;
+    background: #d3d1d1;
+}
+fieldset h2 {
+    margin: 0;
+    padding: 5px 8px 4px;
+    font-size: 13px;
+    font-weight: bold;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #E8E9E9;
+    text-shadow: 0 1px 0 #FFF;
+}
+
+.templates option {
+    color: red;
+    padding: 5px 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+  }
+  
+fieldset.Columns .Column {
+    width: 50%;
+    padding: 0px 0px 3px 3px;
+   
+    float: left;
+    border: none;
+}
+
+
+
+
+label{
+    
+    width: 17%; 
+    
+    
+}
+.row {
+    display: flex; 
+    margin-left: 13px;
+  }
+  
+  .row button {
+    margin: 5px; 
+    padding: 5px 8px 4px; 
+    border: 1px solid #b3b0b0; 
+    border-radius: 4px; 
+    cursor: pointer;
+    width:80px 
+  }
+
+  .pp {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    margin-left: 210px;
+    justify-content: center;
+}
+
+.ti.filter-container.dropdown-container{
+  justify-items: center;
+}
+ 
+  
+  .filter-container input[type="text"] {
+    width: 95px; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
+  .dropdown-container{
+    justify-items: space-around;
+    gap: 10px;
+    
+    
+  }
+
+  .filter-container,div.dropdown-container {
+    display: flex;
+    justify-items: flex-start;
+    margin: 1px; 
+    padding: 4px 9px 3px 10px;
+    margin-left: 2px;
+    border-radius: 4px; 
+    cursor: pointer;
+    width:110% ;
+    gap: 10px;
+   
+    
+  }
+  
+  .number-dropdown{
+  justify-content: flex-start;
+  }
+  .dropdown-container select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+.BottomActionRow span {
+  padding: 0 5px;
+}
+div.InputField_Container {
+  position: static;
+  display: inline-block;
+  justify-content: space-around;
+  
+}
+
+.ActionRow{
+justify-content: left;
+display: flex;
+margin-left: 5px;
+gap:5px
+}
+.react-datepicker-wrapper {
+    display: inline-block;
+    padding: 0px;
+    border: 0;
+    margin-left: 3px;
+}
+
+.ResultForm_Search {
+    width: 66.4px;
+    max-width: 400px;
+    max-height: 50px;
+}
+
+.options{
+  height: 1.8rem;
+  width: 12rem;
+  margin-left: 3px;
+  margin-top: 5px;
+  padding: 1px 8px;
+  font-size: 0.9rem;
+  color: #333;
+}
+.Modernize{
+margin-top: 5px;
+}
+
+/* Datepicker container */
+.react-datepicker {
+  font-family: sans-serif;
+  border: 1px solid #EAEEEE;
+  background-color: #f9f9f9;
+}
+
+
+#Footer {
+    width: 100%;
+    margin-top: 15px;
+    color: #CCC;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Clear{
+  margin-bottom: 20px;
+}
+
+
+  
+
+
+  
+  

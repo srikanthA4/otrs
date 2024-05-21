@@ -1,0 +1,134 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    background-color:lightgrey;
+} */
+
+.newTicket{
+    /* border: 1px solid green; */
+    margin: 20px;
+    padding: 10px 5px;
+    background-color: rgb(228, 221, 221);
+    background-color: rgb(217, 217, 217);
+    /* height: 100vh; */
+}
+
+.ticketlabel{
+    width: 8rem;
+    margin: 6px 10px;
+    padding: 5px;
+    background-color: darkgray;
+    color: #333;
+    text-align: right;
+    height: fit-content;
+    background-color: transparent;
+    box-shadow: 0.5px 0.5px 4px dimgray;
+    font-weight: bold;
+}
+
+.options{
+    height: 1.8rem;
+    width: 12rem;
+    padding: 1px 8px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.sub{
+    height: 1.8rem;
+    width: 40rem;
+    padding: 1px 8px;
+    font-size: 0.9rem;
+    color: #333;
+}
+.file{
+    height: 1.8rem;
+    width: 40rem;
+    padding: 1px 8px;
+    font-size: 0.9rem;
+    margin: 15px 0;
+    /* color: #333; */
+    /* cursor: pointer; */
+}
+.newTicket > button{
+    background-color: #333;
+    color: #fff;
+    /* padding: 5px 10px; */
+    padding: 0.4rem 1.5rem;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    margin: 1.5rem 9.5rem;
+}
+
+.editor{
+    display: flex;
+}
+.editor > label{
+    /* height: fit-content; */
+}
+.editor .quill{
+    background-color: #fff;
+    width: 60rem;
+    height: 22rem;
+    color: black;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .newTicket {
+        margin: 10px;
+        padding: 8px 4px;
+    }
+
+    .ticketlabel {
+        width: auto;
+        margin: 4px;
+        padding: 4px;
+        text-align: center; 
+    }
+
+    .options {
+        height: 1.6rem;
+        width: 100%; /* Make full-width */
+        padding: 0.5px 6px;
+        font-size: 0.8rem;
+    }
+
+    .sub {
+        height: 1.6rem;
+        width: 100%; /* Full width */
+        padding: 0.5px 6px;
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+    }
+
+    .file {
+        height: 1.6rem;
+        width: 100%; /* Full width */
+        padding: 0.5px 6px;
+        font-size: 0.8rem;
+        margin: 10px 0;
+    }
+
+    .newTicket > button {
+        padding: 0.3rem 1rem;
+        margin: 1rem auto; /* Center the button */
+        display: block; /* Block-level for centering */
+    }
+
+    .editor {
+        flex-direction: column;
+        align-items: flex-start; /* Align to start for mobile */
+    }
+
+    .editor .quill {
+        width: 100%; /* Full width */
+        height: 18rem;
+        margin-bottom: 20px;
+    }
+}

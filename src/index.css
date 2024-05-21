@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: #333;
+}
+
+body{
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* border: 2px solid black; */
+  width: 100vw;
+}
+
+#root {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  min-width: 200px;
+} */
+
+.company{
+  /* width: 100px; */
+}
+
+.CompanyName h1{
+  width: 100%;
+  background-color: rgb(81, 10, 81);
+  padding: 3px 18px;
+  border-radius: 3px;
+}
+
+.CompanyName h1 a{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.regist p{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  /* color: red; */
+}
+
+.instructionNote{
+  z-index: -1;
+  color: red;
+  display: none;
+}
+
+.dashboard{
+  height: auto;
+  width: 99.8vw;
+  /* margin: 0; */
+}
+
+.dashboard .navBar{
+  margin: 0;
+  /* width: auto; */
+}
+
+.errmsg{
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.offscreen{
+  position: absolute;
+  left: -9999px;
+}
+
+.instructions{
+  font-size: 0.90rem;
+  border-radius: 0.5rem;
+  background: lightgray;
+  color: darkslategray;
+  padding: 0.25rem;
+  /* padding-left: -20rem; */
+  position: relative;
+  top: 5px;
+  margin: auto;
+  width: 100%;
+  bottom: -10px;
+  font-weight: bold;
+  justify-content: start;
+  align-items: end;
+  margin-left: 15px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+  padding-left: 0.25rem;
+}
